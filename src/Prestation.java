@@ -23,6 +23,6 @@ public class Prestation {
 
     //Méthode
     public String toString() {
-        return "Prestation"(code, libelle, prix);
+        return "Prestation{code, libelle, prix}";
     }
 }
