@@ -30,6 +30,6 @@ public class Seance {
 
     //Méthode
     public String toString() {
-        return "Seance{id, nom, dateHeure, capaciteMax}";
+        return "Seance{"id, nom, dateHeure, capaciteMax}";
     }
 }
