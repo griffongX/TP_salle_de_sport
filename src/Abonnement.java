@@ -25,6 +25,6 @@ public abstract class Abonnement {
     public abstract int creditsCoachInclus();
 
     public String toString() {
-        return "Abonnement{"reference, dateDebut, dureeMois, prixMensuel}";
+        return "Abonnement:" + "Ref:" + reference + "Date début:" + dateDebut + "Durée:" + dureeMois + "Prix par mois:" + prixMensuel;
     }
 }

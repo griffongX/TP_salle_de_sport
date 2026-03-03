@@ -40,6 +40,6 @@ public class Reservation {
         this.statut=StatutReservation.ANNULEE;
     }
     public String toString() {
-        return "Reservation{"seance, prestations, statut, coutPrestation()}";
+        return "Reservation:" + "seance=" + seance + "prestations=" + prestations + "statut=" + statut + "Cout:" + coutPrestation();
     }
 }
